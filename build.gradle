@@ -1,0 +1,25 @@
+plugins {
+    id 'application'   
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'ai.test.sdk:test-ai-selenium:0.0.1'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.0.3'
+}
+
+application {
+    mainClass = 'ai.test.sdk.demo.Example'
+}
+
+tasks.named('test') {
+
+}
+
+wrapper {
+    gradleVersion = '7.4'
+}

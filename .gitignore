@@ -1,0 +1,22 @@
+bin/
+build/
+
+# OS Generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Gradle
+.gradle/
+/bin/
+
+Scratch*.java
