@@ -27,17 +27,6 @@ Please begin by cloning this repository to your computer.
 git clone https://github.com/testdotai/java-selenium-sdk-demo.git
 ```
 
-### Configure Java
-Now we'll install Java dependencies.  `cd` into the root directory of this repository and run 
-```bash
-./gradlew build
-```
-
-If you're using Windows, please run the following command instead:
-```powershell
-gradlew.bat build
-```
-
 ### Run the demo
 Please visit https://sdk.test.ai, and log into your account.  Please copy your `API key` (in the upper right corner of your screen), you will need this for the next step.
 
